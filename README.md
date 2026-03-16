@@ -1,1 +1,87 @@
-# atividade-nuvem
+# atividade-nuvem<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Computação em Nuvem</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family: Arial, Helvetica, sans-serif;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background: linear-gradient(135deg,#667eea,#764ba2);
+color:white;
+}
+
+.container{
+text-align:center;
+background: rgba(255,255,255,0.1);
+padding:50px;
+border-radius:15px;
+backdrop-filter: blur(10px);
+box-shadow:0 10px 30px rgba(0,0,0,0.3);
+max-width:600px;
+}
+
+h1{
+font-size:38px;
+margin-bottom:20px;
+}
+
+p{
+font-size:18px;
+margin-bottom:30px;
+line-height:1.6;
+}
+
+.tag{
+display:inline-block;
+padding:10px 25px;
+background:white;
+color:#764ba2;
+border-radius:25px;
+font-weight:bold;
+}
+
+footer{
+margin-top:25px;
+font-size:14px;
+opacity:0.8;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>☁️ Aplicação na Nuvem</h1>
+
+<p>
+Esta aplicação foi publicada utilizando uma plataforma de cloud.
+Ela demonstra na prática o funcionamento da computação em nuvem,
+onde aplicações podem ser hospedadas e acessadas pela internet.
+</p>
+
+<div class="tag">
+Deploy realizado com sucesso 🚀
+</div>
+
+<footer>
+Atividade prática de Computação em Nuvem
+</footer>
+
+</div>
+
+</body>
+</html>
